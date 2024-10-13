@@ -35,7 +35,7 @@ mv nvim-tree.lua.macOS nvim-tree.lua
 
 + 安装插件前，需要修改 init.lua 文件的插件路徑
 ```bash
-sed -i 's/x./$USER./g' ~/.config/nvim/init.lua
+sed -i "s/x./${USER}./g" ~/.config/nvim/init.lua
 ```
 
 > 修改路径， `x` 修改为当前用户名，与上述路径保持一致 ~/.config/nvim/lua/$USER/plugins/
