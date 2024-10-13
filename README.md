@@ -1,8 +1,9 @@
 # neovim-config-lua配置使用
 # 前提条件：
 
-1. 已安裝 neovim
-2. 若已配置 neovim，请执行以下操作：
+1. 已安装python和golang环境
+2. 已安裝 neovim
+3. 若已配置 neovim，请执行以下操作：
 
 ```bash
 #备份配置文件：
